@@ -46,8 +46,11 @@ h1 {
 
 .menu {
     width: 60%;
-    height: 7vh;
+    height: 8vh;
     margin: auto 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .menu ul {
@@ -141,7 +144,7 @@ h1 {
 }
 
 .about-me-image-container img {
-    width: 100%;
+    width: 70%;
     height: fit-content;
     object-fit: cover;
 }
@@ -272,6 +275,12 @@ h1 {
         flex-direction: column;
         margin-top: 60px;
     }
+
+    .about-me-image-container img {
+        width: 100%;
+        height: fit-content;
+        object-fit: cover;
+    }
     
     .about-me-text-container {
         display: flex;
@@ -377,6 +386,12 @@ h1 {
         gap: 50px;
     }
     
+    
+    .about-me-image-container img {
+        width: 100%;
+        height: fit-content;
+        object-fit: cover;
+    }
     
     .about-me-text-container div p {
         font-size: var(--lg);
