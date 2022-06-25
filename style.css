@@ -245,16 +245,13 @@ h1 {
 
 .portfolio-container div img {
     width: 500px;
-    height: 400px;
+    height: 500px;
     scroll-snap-align: center;
 }
 
 
-.contactMe {
-    height: 50vh;
-}
 
-@media screen and (max-width:768px) {
+@media only screen and (max-width:768px) {
 
     .nav-desktop {
         display: none;
@@ -280,7 +277,7 @@ h1 {
 
     .about-me-image-container img {
         width: 100%;
-        height: fit-content;
+        height: 400px !important;
         object-fit: cover;
     }
     
@@ -356,7 +353,7 @@ h1 {
     }
 }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
     .cardContainer {
         width: 90%;
         overflow: hidden;
