@@ -266,6 +266,10 @@ h1 {
         top: 40%;
         left: 10%;
     }
+
+    .presentation img {
+        height: 100vh;
+    }
     
 
     .about-me-container {
