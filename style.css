@@ -262,6 +262,7 @@ h1 {
 
     .nav-mobile {
         display: block !important;
+        height: 7vh !important;
     }
     
     .presentation div:nth-child(1) {
@@ -273,6 +274,7 @@ h1 {
     .about-me-container {
         display: flex;
         flex-direction: column;
+        max-height: 100vh;
         margin-top: 60px;
     }
 
